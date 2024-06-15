@@ -1,0 +1,58 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fef6e4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 2em;
+    color: #ffb3c1;
+}
+
+#enigma-container {
+    margin-top: 20px;
+}
+
+#enigma {
+    font-size: 1.2em;
+    color: #7f7f7f;
+}
+
+#resposta {
+    width: 80%;
+    padding: 10px;
+    border: 2px solid #ffb3c1;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    background-color: #ffb3c1;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff8fa3;
+}
+
+#mensagem {
+    margin-top: 10px;
+    font-size: 1em;
+}
